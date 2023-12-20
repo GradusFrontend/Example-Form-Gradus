@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAMPLE FORM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="wrap">
+        <h1>Example form</h1>
+
+        <div class="console">
+            <p>All: <span>12</span></p>
+            <p>Need: <span>7</span></p>
+            <p>Success: <span class="success">0</span>/12</p>
+            <p>Error: <span class="error">0</span>/12</p>
+        </div>
+
+
+        <form>
+            <div class="form-wrap">
+
+                <div class="input">
+                    <label class="required-label" for="name"> Name <br>
+                        <input class="required" id="name" type="text">
+                        <img class="error-icon" src="./error warning.svg" alt="">
+                        <p class="input-p">need to fill</p>
+                    </label>
+                </div>
+                <div class="input">
+                    <label class="required-label" for="age"> Age <br>
+                        <input class="required" id="age" type="number"> 
+                        <img class="error-icon" src="./error warning.svg" alt="">
+                        <p class="input-p">need to fill</p>
+                    </label>
+                </div>
+                <div class="input">
+                    <label for="name"> Surname <br>
+                        <input id="name" type="text"> 
+                    </label>
+                </div>
+                <div class="input">
+                    <label class="required-label" for="about"> About You <br>
+                        <input class="required" id="about" type="text"> 
+                        <img class="error-icon" src="./error warning.svg" alt="">
+                        <p class="input-p">need to fill</p>
+                    </label>
+                </div>
+                <div class="input">
+                    <label class="required-label" for="email"> Email Adress <br>
+                        <input class="required" id="email" type="email"> 
+                        <img class="error-icon" src="./error warning.svg" alt="">
+                        <p class="input-p">need to fill</p>
+                    </label>
+                </div>
+                <div class="input">
+                    <label class="required-label" for="js"> What is JavaScript? <br>
+                        <input class="required" id="js" type="text"> 
+                        <img class="error-icon" src="./error warning.svg" alt="">
+                        <p class="input-p">need to fill</p>
+                    </label>
+                </div>
+                <div class="input">
+                    <label for="phone"> Phone Number <br>
+                        <input id="phone" type="text"> 
+                    </label>
+                </div>
+                <div class="input">
+                    <label class="required-label" for="html"> What is HTML? <br>
+                        <input class="required" id="html" type="text"> 
+                        <img class="error-icon" src="./error warning.svg" alt="">
+                        <p class="input-p">need to fill</p>
+                    </label>
+                </div>
+                <div class="input">
+                    <label for="mom"> Your Mom’s name <br>
+                        <input id="mom" type="text"> 
+                    </label>
+                </div>
+                <div class="input">
+                    <label class="required-label" for="css"> What is CSS? <br>
+                        <input class="required" id="css" type="text"> 
+                        <img class="error-icon" src="./error warning.svg" alt="">
+                        <p class="input-p">need to fill</p>
+                    </label>
+                </div>
+                <div class="input">
+                    <label for="pap"> Your Pap’s name <br>
+                        <input id="pap" type="text">
+                    </label>
+                </div>
+                <div class="input">
+                    <label for="car"> Your favourite car <br>
+                        <input id="car" type="text"> 
+                    </label>
+                </div>
+
+
+            </div>
+            <div class="submit-box">
+                <button class="submit" type="button">Save changes</button>
+            </div>
+
+        </form>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
