@@ -147,3 +147,65 @@ form {
     height: 16px;
     background-color: red;
 }
+
+.box {
+    padding: 7px;
+    background-color: rgba(216, 215, 215, 0.363);
+    border-radius: 50%;
+    position: fixed;
+    transition: .4s ease-out;
+    top: -55px;
+    left: 50%;
+    margin-left: -30px;
+    z-index: 1;
+    // animation: boxTrans .8s forwards, opacitybox 3s forwards;
+    // animation: opacitybox 3s;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border: 5px #4400ff34 solid;
+    border-top: 5px #4200FF solid;
+    border-radius: 50%;
+    // animation: spin-circle 3s linear;
+}
+
+@keyframes opacitybox {
+    from {
+        opacity: 1;
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes boxTrans {
+    from {
+        top: -55px;
+    }
+    to {
+        top: 30px;
+    }
+    
+}
+
+@keyframes spin-circle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    99% {
+        opacity: 1;
+    }
+
+    to {
+        transform: rotate(1080deg);
+        opacity: 0;
+    }
+}
