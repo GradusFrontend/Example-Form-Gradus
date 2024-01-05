@@ -24,10 +24,10 @@
             <div class="form-wrap">
 
                 <div class="input">
-                    <label class="required-label" for="name"> Name <br>
-                        <input class="required" id="name" type="text" name="name">
-                        <img class="error-icon" src="./error warning.svg" alt="">
-                        <p class="input-p">need to fill</p>
+                    <label class="required-label regexLabel" for="name"> Name <br>
+                        <input class="required nameRegex" id="name" type="text" name="name">
+                        <img class="error-icon error-icon-regex" id="name-icon" src="./error warning.svg" alt="">
+                        <p class="input-p p-regex">need to fill</p>
                     </label>
                 </div>
                 <div class="input">
@@ -38,8 +38,11 @@
                     </label>
                 </div>
                 <div class="input">
-                    <label for="name"> Surname <br>
-                        <input id="name" type="text" name="surname"> 
+                    <label for="name" class="regexLabel"> Surname <br>
+                        <input class="nameRegex" id="name" type="text" name="surname"> 
+                        <img class="error-icon-regex" src="./error warning.svg" alt="">
+                        <p class="p-regex"></p>
+
                     </label>
                 </div>
                 <div class="input">
@@ -50,10 +53,10 @@
                     </label>
                 </div>
                 <div class="input">
-                    <label class="required-label" for="email"> Email Adress <br>
-                        <input class="required" id="email" type="email" name="email"> 
-                        <img class="error-icon" src="./error warning.svg" alt="">
-                        <p class="input-p">need to fill</p>
+                    <label class="required-label email-label" for="email"> Email Adress <br>
+                        <input class="required emailRegex" id="email" type="text" name="email"> 
+                        <img class="error-icon email-icon" src="./error warning.svg" alt="">
+                        <p class="input-p p-email">need to fill</p>
                     </label>
                 </div>
                 <div class="input">
@@ -64,8 +67,10 @@
                     </label>
                 </div>
                 <div class="input">
-                    <label for="phone"> Phone Number <br>
-                        <input id="phone" type="text" name="phone"> 
+                    <label class="phone-label" for="phone"> Phone Number <br>
+                        <input class="phoneRegex" id="phone" type="text" name="phone"> 
+                        <img class="error-icon-phone" src="./error warning.svg" alt="">
+                        <p class="p-phone">need to fill</p>
                     </label>
                 </div>
                 <div class="input">
@@ -76,8 +81,10 @@
                     </label>
                 </div>
                 <div class="input">
-                    <label for="mom"> Your Mom’s name <br>
-                        <input id="mom" type="text"> 
+                    <label for="mom" class="regexLabel"> Your Mom’s name <br>
+                        <input class="nameRegex" id="mom" type="text"> 
+                        <img class="error-icon-regex" src="./error warning.svg" alt="">
+                        <p class="p-regex"></p>
                     </label>
                 </div>
                 <div class="input">
@@ -88,13 +95,16 @@
                     </label>
                 </div>
                 <div class="input">
-                    <label for="pap"> Your Pap’s name <br>
-                        <input id="pap" type="text" name="dad">
+                    <label for="pap" class="regexLabel"> Your Pap’s name <br>
+                        <input class="nameRegex" id="pap" type="text" name="dad">
+                        <img class="error-icon-regex" src="./error warning.svg" alt="">
+                        <p class="p-regex"></p>
                     </label>
                 </div>
                 <div class="input">
                     <label for="car"> Your favourite car <br>
                         <input id="car" type="text" name="car"> 
+                        <img class="error-icon" src="./error warning.svg" alt="">
                     </label>
                 </div>
 

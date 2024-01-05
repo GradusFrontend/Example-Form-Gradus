@@ -98,6 +98,21 @@ form {
         }
     }
 
+    .good-name-label {
+        color: #4200FF;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .good-name {
+        border-radius: 4px;
+        border: 2px solid #543FD3;
+        background: #FFF;
+    }
+
     .submit-box {
         padding-top: 30px;
         margin: 0 auto;
@@ -128,18 +143,66 @@ form {
 .required-label-error {
     color: var(--Error-Red, #EE0004) !important;
 }
+.phone-label-error {
+    color: var(--Error-Red, #EE0004) !important;
+}
 
 .required-error {
     border-radius: 4px !important;
     border: 2px solid var(--Error-Red, #EE0004) !important;
 }
 
+.required-error-regex {
+    border-radius: 4px !important;
+    border: 2px solid var(--Error-Red, #EE0004) !important;
+}
+
+.required-error-email {
+    border-radius: 4px !important;
+    border: 2px solid var(--Error-Red, #EE0004) !important;
+}
+.required-error-phone {
+    border-radius: 4px !important;
+    border: 2px solid var(--Error-Red, #EE0004) !important;
+}
+
+.regex-label-error {
+    color: var(--Error-Red, #EE0004) !important;
+}
+
+.email-label-error {
+    color: var(--Error-Red, #EE0004) !important;
+}
+
 .p-error {
     color: var(--Error-Red, #EE0004) !important;
 }
 
+.p-error-regex {
+    color: var(--Error-Red, #EE0004) !important;
+}
+
+.p-email-error {
+    color: var(--Error-Red, #EE0004) !important;
+}
+.p-phone-error {
+    color: var(--Error-Red, #EE0004) !important;
+}
+
 .error-icon {
-    display: none;
+    opacity: 0;
+}
+
+.error-icon-regex {
+    opacity: 0;
+}
+
+.error-email-icon {
+    opacity: 0;
+}
+
+.error-icon-phone {
+    opacity: 0;
 }
 
 .unv {
@@ -189,10 +252,11 @@ form {
     from {
         top: -55px;
     }
+
     to {
         top: 30px;
     }
-    
+
 }
 
 @keyframes spin-circle {
