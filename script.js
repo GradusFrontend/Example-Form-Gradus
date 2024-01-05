@@ -52,6 +52,7 @@ form.onsubmit = (event) => {
             labels[idx].classList.remove('required-label-error')
             pAll[idx].classList.remove('p-error')
             pAll[idx].innerHTML = 'Need to fill'
+            erroricons[idx].classList.add('error-icon')
             nameErrorIcon.classList.add('error-icon-regex')
         }
     })
